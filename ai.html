@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,user-scalable=no,maximum-scale=1"
+    />
+    <meta
+      name="keywords"
+      content="ビジネスカメラ,ネットワークカメラ,FlaRevo,Nx Witness,ビジネス,RYODEN"
+    />
+    <meta
+      name="description"
+      content="RYODENが提供するFlaRevoシリーズは、最先端VMSであるNx Witnessを中心に、弊社オリジナルソリューションと様々なネットワークカメラを利用し、お客様のビジネスに貢献する「ビジネスカメラ」をご提供します。"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+      データと映像の連動よりビジネス価値を生むFlaRevo CONNECT | FlaRevo
+    </title>
+    <link
+      href="./css/common.css"
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+    />
+    <link
+      href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script src="./js/script.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="./js/html5shiv.js"></script>
+      <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+    <style>
+      button.bt_movie {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8px;
+        width: 60%;
+        display: block;
+        color: #fff;
+        background-color: #ed1c24;
+        padding: 20px;
+        text-align: center;
+        border: 0px;
+      }
+
+      button:hover.bt_movie {
+        background-color: #122985;
+        border: 0px;
+      }
+    </style>
+  </head>
+
+  <body id="products">
+    <div id="header-fixed">
+      <!-- header -->
+      <header>
+        <div id="logo">
+          <a href="./"
+            ><img src="./images/common/img_logo.png" alt="FlaRevo"
+          /></a>
+        </div>
+        <div id="globalnavi">
+          <ul>
+            <li><a href="./">HOME</a></li>
+            <li><a href="connect.html">CONNECT</a></li>
+            <li><a href="clip.html">CLIP</a></li>
+            <li><a href="ai.html">AI</a></li>
+            <li><a href="nxwitness.html">Nx Witness VMSについて</a></li>
+            <li><a href="https://www.ryoden.co.jp/inquiry/business/ict">お問い合わせ</a></li>
+          </ul>
+        </div>
+
+        <span class="spmenu_btn"></span
+        ><!-- スマホ用ナビ -->
+        <div class="spmenu">
+          <nav>
+            <ul>
+              <li><a href="./">HOME</a></li>
+              <li><a href="connect.html">CONNECT</a></li>
+              <li><a href="clip.html">CLIP</a></li>
+              <li><a href="ai.html">AI</a></li>
+              <li><a href="nxwitness.html">Nx Witness VMSについて</a></li>
+              <li><a href="https://www.ryoden.co.jp/inquiry/business/ict">お問い合わせ</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- header end -->
+    </div>
+
+    <div id="container">
+      <!-- container -->
+
+      <div id="kv_scroll-area">
+        <div class="box box__bg_photo">
+          <div class="text1">AIと映像の連動よりビジネス価値を生む</div>
+          <div class="text2">
+            FlaRevo AI<span id="caution">※先行開発中</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="contents_area outline">
+        <div class="inner">
+          <div class="area_title red">
+            最先端AI搭載。<br class="sp" />AIで現場を見る。
+          </div>
+
+          <div class="left">
+            <img
+              src="./images/top/img_products_ai.jpg"
+              alt="最先端AI搭載。AIで現場を見る。"
+            />
+          </div>
+          <div class="right">
+            AI時代の到来で、ビジネスカメラはますます重要になっています。人の動きや、モノの動きをAIで認識したいというニーズは増えています。<br />
+            FlaRevo
+            AIは、指定ジェスチャーや指定異常行動をAIで検知し、その時点の詳細内容を確認できます。ジェスチャー検知による簡単な制御を行うことも可能です。<br />
+            製造現場では、FlaRevo
+            AIを使えば、生産性向上、効率化につながり、スマート工場化、デジタルトランスフォーメーションにつながります。<br />
+            FlaRevo
+            AIで最先端のテクノロジーと新たな価値を、お客様に提供いたします。
+          </div>
+          
+          <br class="clear" />
+        </div>
+      </div>
+
+      <div class="contents_area scene">
+        <div class="inner">
+          <h2 class="black">参考動画</h2>
+
+          <div class="movie">
+            <div style="margin-top: 56px; text-align: center">
+              <iframe
+                id="movie"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/8Wc_R49mY6Y"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <button class="bt_movie" onclick="changeVideo(1)">
+              1. 骨で記録する時代がやってきた
+            </button>
+            <button class="bt_movie" onclick="changeVideo(2)">
+              2. 骨の動きで機械を制御する
+            </button>
+            <button class="bt_movie" onclick="changeVideo(3)">
+              3. 見たいシーンだけをお見せします
+            </button>
+          </div>
+
+          <br class="clear" />
+        </div>
+      </div>
+
+      <div class="contents_area gray scene">
+        <div class="inner">
+          <h2 class="black">利用シーン</h2>
+
+          <!-- シーン -->
+          <div class="case_box">
+            <div class="left">CASE1</div>
+            <div class="right">AIでジェスチャーを判断</div>
+            <br class="clear" />
+          </div>
+
+          ジェスチャーを学習させ判断し、その時点の映像を確認することが可能です。
+          <br /><br />
+
+          <div class="results">
+            <div class="left">
+              <div class="title">
+                導入シーン
+                <div class="task">ジェスチャー</div>
+              </div>
+              <div class="text">
+                製造現場では、騒音や手が塞がった状況も多いため、ジェスチャーでのAI判断は非常に役立ちます。例えば、製造開始で〇のジェスチャー、製造終了で×のジェスチャーを行うことにより、ピンポイントでの検索やアウトプットを行うことが可能です。
+              </div>
+              <div class="photo">
+                <img src="./images/products/scene/img_scene_05.jpg" alt="" />
+              </div>
+              <br class="clear" />
+            </div>
+            <div class="center">
+              <div class="arrow">
+                <span class="pc"
+                  ><img src="./images/products/img_arrow_red.png" alt=""
+                /></span>
+                <span class="sp"
+                  ><img src="./images/products/img_arrow_red_under.png" alt=""
+                /></span>
+              </div>
+            </div>
+            <div class="right">
+              <div class="title">効果</div>
+              ジェスチャーにより、映像に目印を入れることができ、素早い検索が可能になります。ジェスチャーにより、照明オン等の簡単な制御ができます。
+            </div>
+            <br class="clear" />
+          </div>
+          <!-- シーン end -->
+
+          <br /><br />
+
+          <!-- シーン -->
+          <div class="case_box">
+            <div class="left">CASE2</div>
+            <div class="right">人やモノの動きをAIで判断</div>
+            <br class="clear" />
+          </div>
+
+          一連の動作を学習させ、異常な動きを行った場合を判断できます。
+          <br /><br />
+
+          <div class="results">
+            <div class="left">
+              <div class="title">
+                導入シーン
+                <div class="task">さぼり検知</div>
+              </div>
+              <div class="text">
+                一定の手順を学習させ、異常手順やさぼりを検知することができます。学習させた行動以外の行動を検知するため、人やモノの動きを幅広く捉えることができます。
+              </div>
+              <div class="photo">
+                <img src="./images/products/scene/img_scene_06.jpg" alt="" />
+              </div>
+              <br class="clear" />
+            </div>
+            <div class="center">
+              <div class="arrow">
+                <span class="pc"
+                  ><img src="./images/products/img_arrow_red.png" alt=""
+                /></span>
+                <span class="sp"
+                  ><img src="./images/products/img_arrow_red_under.png" alt=""
+                /></span>
+              </div>
+            </div>
+            <div class="right">
+              <div class="title">AIの学習</div>
+              学習については、検証が必要になります。行動パターンを学習し、AIが判断します。複雑な行動になればなるほど、より高度なAIが必要になります。
+            </div>
+            <br class="clear" />
+          </div>
+          <!-- シーン end -->
+        </div>
+      </div>
+
+      <div class="contents_area features">
+        <div class="inner">
+          <h2 class="black">特長</h2>
+          <div class="left">
+            <div class="title">
+              最先端ディープラーニングで骨格検出、行動認識を判定
+            </div>
+            最先端のディープラーニングでは、高精度な骨格検出、行動認識の判定を行うことができます。<br />
+            いままでできなかった人の動きやモノの動きも、判定することが可能です。<br />
+            ディープラーニングで画像を判断することにより、新たなコスト削減や業務改善のチャレンジができます。
+          </div>
+          <div class="right">
+            <img src="./images/top/img_products_06.jpg" alt="" />
+          </div>
+          <br class="clear" />
+
+          <div class="left">
+            <div class="title">
+              FlaRevo AIを使い、デジタルトランスフォーメーション
+            </div>
+            FlaRevo
+            AIを使えば、映像をデータ連携させることができ、帳票連携やレポート連携ができます。<br />
+            また、ジェスチャーを数値化して、さらなるAI分析を行うことも可能です。<br />
+            製造現場を最先端のスマート工場にするアイテムとして、お使いいただけます。
+          </div>
+          <div class="right">
+            <img src="./images/top/img_products_07.jpg" alt="" />
+          </div>
+          <br class="clear" />
+        </div>
+      </div>
+
+      <div class="contents_area gray diagram">
+        <div class="inner" style="text-align: center">
+          <h2 class="black">機器構成図</h2>
+          <img
+            src="./images/products/diagram/img_diagram_ai.png"
+            width="100%"
+            height="auto"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="contents_area spec blue">
+        <div class="inner">
+          <h2 class="white">提供スペック</h2>
+
+          <table>
+            <tr>
+              <td>稼働OS</td>
+              <td>Microsoft Windows 8 / 10 ( 32bit / 64bit )</td>
+            </tr>
+            <tr>
+              <td>CPU</td>
+              <td>Intel Core i3（第9世代）相当 以上</td>
+            </tr>
+            <tr>
+              <td>メモリ</td>
+              <td>8GB以上</td>
+            </tr>
+            <tr>
+              <td>HDD</td>
+              <td>10GB 以上の空き容量</td>
+            </tr>
+            <tr>
+              <td>必要ソフトウェア</td>
+              <td>Nx Witness 3.2以上</td>
+            </tr>
+          </table>
+
+          ※ シーケンサおよびMX Componentは三菱電機株式会社の登録商標です。
+        </div>
+      </div>
+
+      <div class="contents_area top_support">
+        <div class="inner">
+          <div class="area_title white">サポート体制</div>
+
+          <div class="box">
+            <img
+              src="./images/top/img_support_01.png"
+              alt="あんしんのサポートセンター"
+              width="78"
+              height="78"
+            />
+            <div class="title">あんしんのサポートセンター</div>
+            <div class="text">
+              各種FlaRevoのご質問およびNx
+              Witness上のご質問を受け付ける専用のサポートセンターをご用意しております。
+            </div>
+          </div>
+          <div class="box">
+            <img
+              src="./images/top/img_support_02.png"
+              alt="全国対応"
+              width="78"
+              height="78"
+            />
+            <div class="title">全国対応</div>
+            <div class="text">
+              国内35拠点のネットワークを活かして、全国どこでもお伺いさせていただきます。
+            </div>
+          </div>
+          <br class="clear" />
+        </div>
+      </div>
+
+      <div class="contents_area contact">
+        <div class="inner">
+          <div class="area_title blue">お問い合わせ</div>
+
+          <div class="maintext">製品に関するお問い合わせ・資料請求</div>
+
+          <div class="bt_mail">
+            <a href="mailto:flarevo@mgw.ryoden.co.jp">メールでのお問い合わせ</a>
+          </div>
+
+          <div class="bt_tel">
+            <a href="tel:0353966415">
+              <span class="text">お電話でのお問い合わせ</span>
+              <span class="num">03-5396-6415</span>
+              <span class="time"
+                >受付時間 平日10:00～17:00<br
+                  class="sp"
+                />（※土曜・日曜・祝祭日を除く）
+              </span>
+            </a>
+          </div>
+
+          <br class="clear" />
+        </div>
+      </div>
+
+      <!-- footer -->
+      <footer>
+        <div id="inner">
+          <div class="right">
+            <ul>
+              <li><a href="./">HOME</a></li>
+              <li><a href="connect.html">CONNECT</a></li>
+              <li><a href="clip.html">CLIP</a></li>
+              <li><a href="ai.html">AI</a></li>
+              <li><a href="nxwitness.html">Nx Witness VMSについて</a></li>
+              <li><a href="https://www.ryoden.co.jp/inquiry/business/ict">お問い合わせ</a></li>
+              <li>
+                <a href="https://www.ryoden.co.jp/" target="_blank"
+                  >コーポレートサイト</a
+                >
+              </li>
+              <li>
+                <a href="https://www.ryoden.co.jp/privacy/" target="_blank"
+                  >プライバシーポリシー</a
+                >
+              </li>
+            </ul>
+            <br class="clear" />
+          </div>
+          <div class="left">
+            <a href="https://www.ryoden.co.jp/" target="_blank"
+              ><img
+                src="./images/common/logo_ryoden.png"
+                alt="株式会社RYODEN"
+                width="85"
+                height="62"
+            /></a>
+          </div>
+          <br class="clear" />
+          <div id="copyright">
+            Copyright&copy; Ryoden Corporation All Rights Reserved.
+          </div>
+        </div>
+      </footer>
+      <!-- footer end -->
+    </div>
+    <!-- container end -->
+
+    <p id="pageTop"><a href="#"></a></p>
+
+    <script>
+      function changeVideo(id) {
+        video = document.getElementById("movie");
+        switch (id) {
+          case 1:
+            video.src = "https://www.youtube.com/embed/8Wc_R49mY6Y";
+            break;
+          case 2:
+            video.src = "https://www.youtube.com/embed/Mo9yoGmXymQ";
+            break;
+          case 3:
+            video.src = "https://www.youtube.com/embed/ttTC-2ZcbVM";
+            break;
+        }
+      }
+    </script>
+  </body>
+</html>
